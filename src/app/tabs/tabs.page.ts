@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-
-  constructor() {}
-
+  constructor() {
+    console.log('TODO.TabsPage.constructor');
+  }
+  logout() {
+    console.log('TODO.TabsPage.logout');
+  }
 }
